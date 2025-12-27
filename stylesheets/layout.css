@@ -562,6 +562,10 @@ border-radius: 0.93vw;
     width: 5.94vw;
     height: auto;
 }
+.small-cloud-right-top img:hover {
+    /* animation: rotate-cloud; */
+    rotate: 180deg;
+}
 .small-cloud-right-down {
     background-color: #312783;
     border-radius: 0.93vw;
