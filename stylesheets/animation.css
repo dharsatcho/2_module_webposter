@@ -656,7 +656,7 @@
     0% {
         transform: translate(0vw, 0vw) rotate(0deg);
     }
-    12% {
+    16% {
         transform: translate(3.59vw, 0vw) rotate(11deg);
     }
     24% {
@@ -674,7 +674,7 @@
     72% {
         transform: translate(48.44vw, 13.5vw) rotate(88deg);
     }
-    84% {
+    80% {
         transform: translate(45.05vw, 9vw) rotate(86deg);
     }
 }
@@ -684,7 +684,7 @@
         transform: translate(0vw, 0vw) rotate(0deg);
     }
 
-    12% {
+    16% {
         transform: translate(-1.67vw, 0vw) rotate(26deg);
     }
 
@@ -705,11 +705,113 @@
     }
 
     72% {
-        transform: translate(48.44vw, 13.5vw) rotate(65deg);
+        transform: translate(18vw, 5vw) rotate(65deg);
     }
 
-    84% {
-        transform: translate(45.05vw, 9vw) rotate(64deg);
+    80% {
+        transform: translate(15vw, -5vw) rotate(64deg);
+    }
+}
+
+@keyframes boo-3 {
+    0% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+
+    16% {
+        transform: translate(-1.67vw, 1.7vw) rotate(34deg);
+    }
+
+    24% {
+        transform: translate(-3vw, 3.6vw) rotate(15deg);
+    }
+
+    36% {
+        transform: translate(-12vw, -4.7vw) rotate(78deg);
+    }
+
+    48% {
+        transform: translate(-8vw, -4vw) rotate(97deg);
+    }
+
+    60% {
+        transform: translate(9vw, -2vw) rotate(118deg);
+    }
+
+    72% {
+        transform: translate(15vw, 0vw) rotate(128deg);
+    }
+
+    80% {
+        transform: translate(20.5vw, 2vw) rotate(156deg);
+    }
+}
+
+@keyframes boo-4 {
+    0% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+
+    16% {
+        transform: translate(-1.67vw, 5vw) rotate(50deg);
+    }
+
+    24% {
+        transform: translate(-8vw, 3.6vw) rotate(56deg);
+    }
+
+    36% {
+        transform: translate(-16vw, 0vw) rotate(75deg);
+    }
+
+    48% {
+        transform: translate(-8vw, 2vw) rotate(45deg);
+    }
+
+    60% {
+        transform: translate(9vw, 0vw) rotate(30deg);
+    }
+
+    72% {
+        transform: translate(-10vw, 4vw) rotate(65deg);
+    }
+
+    80% {
+        transform: translate(-33vw, 11vw) rotate(115deg);
+    }
+}
+
+@keyframes boo-5 {
+    0% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+
+    16% {
+        transform: translate(-2.67vw, 10vw) rotate(73deg);
+    }
+
+    24% {
+        transform: translate(-9vw, 3.6vw) rotate(56deg);
+    }
+
+    36% {
+        transform: translate(0vw, 0vw) rotate(25deg);
+    }
+
+    48% {
+        transform: translate(7vw, 2vw) rotate(0deg);
+    }
+
+    60% {
+        transform: translate(3vw, 0vw) rotate(50deg);
+    }
+
+    72% {
+        transform: translate(-10vw, 4vw) rotate(96deg);
+    }
+
+    80% {
+        transform: translate(-53vw, 2vw) rotate(70deg);
     }
 }
 

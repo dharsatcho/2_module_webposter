@@ -8,25 +8,25 @@
     }
 .header-top-left {
     height: 78.43vw;
-    width: 93.75vw;
+    width: 97vw;
 }
 .header-top-left img {
     height: 72.5vw;
     width: 202vw;
 }
 .header-down-left {
-    /* overflow: hidden;
+    overflow: hidden;
     display: flex;
-    justify-content: center; */
+    position: relative;
+    justify-content: center;
     height: 31.25vw;
-    width: 202vw;
+    width: 97vw;
 }
 .glazaa {
     position: relative;
     height: 31.25vw;
-    width: 175vw;
+    width: 84vw;
     background-size: 835.625vw;
-    left: -1.5%;
 }
 @keyframes glaza {
     /* 0%{
@@ -40,7 +40,7 @@
 }
 .header-right {
     height: 88.125vw;
-    width: 202vw;
+    width: 97vw;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -49,36 +49,31 @@
 }
 .header-right img:nth-of-type(1) {
     width: 60.125vw;
-    margin-left: -110vw;
 }
 .header-right img:nth-of-type(2) {
     width: 47vw;
-    margin-left: -110vw;
 }
 .header-right img:nth-of-type(3) {
     width: 47vw;
-    margin-left: -110vw;
 }
 .header-right img:nth-of-type(4) {
     width: 47vw;
-    margin-left: -110vw;
 }
 .header-right img:nth-of-type(5) {
     width: 47vw;
-    margin-left: -110vw;
 }
 .header-right img:nth-of-type(6) {
-    margin-left: -110vw;
     width: 47vw;
 
 }
 .header-right img:nth-of-type(7) {
-    margin-left: -110vw;
     width: 66.8vw;
 
 }
 .header-right img:nth-of-type(8) {
-    margin-left: -110vw;
     width: 66.8vw;
+}
+.sign img {
+    display: none;
 }
 }

@@ -85,31 +85,31 @@ body {
 }
 .header-right img:nth-of-type(2) {
     width: 26.56vw;
-    animation: lotsclouds-1 6s ease-in infinite;
+    animation: lotsclouds-1 12s ease-in infinite;
 }
 .header-right img:nth-of-type(3) {
     width: 26.56vw;
-    animation: lotsclouds-2 6s ease-in infinite;
+    animation: lotsclouds-2 12s ease-in infinite;
 }
 .header-right img:nth-of-type(4) {
     width: 26.56vw;
-    animation: lotsclouds-3 6s ease-in infinite;
+    animation: lotsclouds-3 12s ease-in infinite;
 }
 .header-right img:nth-of-type(5) {
     width: 26.56vw;
-    animation: lotsclouds-4 6s ease-in infinite;
+    animation: lotsclouds-4 12s ease-in infinite;
 }
 .header-right img:nth-of-type(6) {
     width: 26.56vw;
-    animation: lotsclouds-5 6s ease-in infinite;
+    animation: lotsclouds-5 12s ease-in infinite;
 }
 .header-right img:nth-of-type(7) {
     width: 37.92vw;
-    animation: lotsclouds-6 6s ease-in infinite;
+    animation: lotsclouds-6 12s ease-in infinite;
 }
 .header-right img:nth-of-type(8) {
     width: 37.92vw;
-    animation: lotsclouds-7 6s linear infinite;
+    animation: lotsclouds-7 12s linear infinite;
 }
 
 /* блок легкость */
@@ -463,27 +463,27 @@ border-radius: 0.93vw;
 .book-1 {
     margin-left: 10.73vw;
     background-color: #C3FB4F;
-    animation: boo-1 12s linear infinite;
+    animation: boo-1 8s linear infinite;
 }
 .book-2 {
     margin-left: 29.42vw;
     background-color: #FFFFFF;
-    animation: boo-2 12s linear infinite;
+    animation: boo-2 8s linear infinite;
 }
 .book-3 {
     margin-left: 44.53vw;
     background-color: #C3FB4F;
-    animation: boo-3 12s linear infinite;
+    animation: boo-3 8s linear infinite;
 }
 .book-4 {
     margin-left: 59.63vw;
     background-color: #FFFFFF;
-    animation: boo-4 12s linear infinite;
+    animation: boo-4 8s linear infinite;
 }
 .book-5 {
     margin-left: 74.73vw;
     background-color: #C3FB4F;
-    animation: boo-5 12s linear infinite;
+    animation: boo-5 8s linear infinite;
 }
 
 /* бегущий текст */
@@ -534,6 +534,9 @@ border-radius: 0.93vw;
     height: 25.31vw;
     width: 31.35vw;
     position: absolute;
+    /* animation: rainy 1s steps(4) infinite; */
+}
+.rain:hover {
     animation: rainy 1s steps(4) infinite;
 }
 .small-cloud-right {
