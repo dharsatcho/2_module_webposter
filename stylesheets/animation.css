@@ -1,0 +1,911 @@
+@keyframes cloud-text {
+    0% {
+        transform: translate(20vw, 0vw);
+    }
+    25% {
+        transform: translate(-5vw, 5vw);
+    }
+    50% {
+        transform: translate(-20vw, 12vw);
+    }
+    100% {
+        transform: translate(-80vw, 0vw);
+    }
+}
+@keyframes lotsclouds-1 {
+    0% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+
+    20% {
+        /* transform: rotate(20.44°); */
+        transform: translate(-5vw, -5vw) rotate(20.44deg);
+    }
+
+    40% {
+        transform: translate(-10vw, -13vw) rotate(34.86deg);
+    }
+
+    60% {
+        transform: translate(-5vw, -21vw) rotate(92.58deg);
+    }
+
+    80% {
+        transform: translate(-15vw, -26vw) rotate(110.23deg);
+    }
+}
+
+@keyframes lotsclouds-2 {
+    0% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(5vw, -5vw) rotate(-40.01deg);
+    }
+
+    40% {
+        transform: translate(15vw, -8vw) rotate(-40.01deg);
+    }
+
+    60% {
+        transform: translate(24vw, -10vw) rotate(-104.67deg);
+    }
+
+    80% {
+        transform: translate(31vw, -11.5vw) rotate(-170.74deg);
+    }
+}
+
+@keyframes lotsclouds-3 {
+    0% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(-5vw, 5vw) rotate(-40.01deg);
+    }
+
+    40% {
+        transform: translate(-13vw, 12vw) rotate(-73deg);
+    }
+
+    60% {
+        transform: translate(-18vw, 18vw) rotate(-60deg);
+    }
+
+    80% {
+        transform: translate(-22vw, 22vw) rotate(-75deg);
+    }
+}
+
+@keyframes lotsclouds-4 {
+    0% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(-2vw, 5vw) rotate(45deg);
+    }
+
+    40% {
+        transform: translate(-4vw, 12vw) rotate(90deg);
+    }
+
+    60% {
+        transform: translate(-6vw, 20vw) rotate(135deg);
+    }
+
+    80% {
+        transform: translate(-6vw, 26vw) rotate(175deg);
+    }
+}
+
+@keyframes lotsclouds-5 {
+    0% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(-2vw, -2vw) rotate(45deg);
+    }
+
+    40% {
+        transform: translate(-12vw, -6vw) rotate(90deg);
+    }
+
+    60% {
+        transform: translate(-18vw, -12vw) rotate(135deg);
+    }
+
+    80% {
+        transform: translate(-31vw, -3.5vw) rotate(175deg);
+    }
+}
+
+@keyframes lotsclouds-6 {
+    0% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(-2vw, -5vw) rotate(-5deg);
+    }
+
+    40% {
+        transform: translate(5vw, -13vw) rotate(15deg);
+    }
+
+    60% {
+        transform: translate(8vw, -21vw) rotate(0deg);
+    }
+
+    80% {
+        transform: translate(5vw, -25vw);
+    }
+}
+
+@keyframes lotsclouds-7 {
+    0% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(8vw, 5vw) rotate(-35deg);
+    }
+
+    40% {
+        transform: translate(16vw, 13vw) rotate(-70deg);
+    }
+
+    60% {
+        transform: translate(24vw, 21vw) rotate(-135deg);
+    }
+
+    80% {
+        transform: translate(30vw, 28vw) rotate(-155deg);
+    }
+}
+
+@keyframes glaza {
+    /* 0%{
+        margin-left: 1vw;
+    } */
+    100%{
+        margin-top: 0.93vw;
+        margin-left: -3.8vw;
+        background-position: -351.56vw;
+    }
+}
+
+@keyframes letters {
+    0% {
+        transform: translate(0vw, 0vw)
+    }
+    20% {
+        transform: translate(0vw, 2.5vw)
+    }
+    80% {
+        transform: translate(0vw, -2.5vw)
+    }
+}
+
+@keyframes phrase {
+    0% {
+        color: #C3FB4F;
+    }
+    20% {
+        color: #FFFFFF;
+    }
+    40% {
+        color: #C3FB4F;
+    }
+    60% {
+        color: #312783;
+    }
+}
+
+@keyframes phrases {
+    0% {
+        opacity: 100%;
+    }
+    20% {
+        opacity: 100%;
+    }
+    40% {
+        opacity: 100%;
+    }
+    60% {
+        opacity: 0%;
+    }
+}
+
+@keyframes blok-1 {
+    12.5%{
+        opacity: 100%;
+        margin-top: 39.3vw;
+    }
+    93%{
+        opacity: 100%;
+        margin-top: 39.3vw;
+    }
+    97% {
+        opacity: 0%;
+        margin-top: 39.3vw;
+    }
+    100% {
+        opacity: 0%;
+        margin-top: -5vw;
+    }
+}
+
+@keyframes blok-11 {
+    12.8% {
+        opacity: 100%;
+        margin-top: 39.3vw;
+    }
+
+    93% {
+        opacity: 100%;
+        margin-top: 39.3vw;
+    }
+
+    97% {
+        opacity: 0%;
+        margin-top: 39.3vw;
+    }
+
+    100% {
+        opacity: 0%;
+        margin-top: -5vw;
+    }
+}
+
+@keyframes blok-2 {
+    13.27% {
+        opacity: 100%;
+        margin-top: 39.3vw;
+    }
+
+    93% {
+        opacity: 100%;
+        margin-top: 39.3vw;
+    }
+
+    97% {
+        opacity: 0%;
+        margin-top: 39.3vw;
+    }
+
+    100% {
+        opacity: 0%;
+        margin-top: -5vw;
+    }
+}
+
+@keyframes blok-6 {
+    13.69% {
+        opacity: 100%;
+        margin-top: 34.3vw;
+    }
+
+    93% {
+        opacity: 100%;
+        margin-top: 34.3vw;
+    }
+
+    97% {
+        opacity: 0%;
+        margin-top: 34.3vw;
+    }
+
+    100% {
+        opacity: 0%;
+        margin-top: -8vw;
+    }
+}
+
+@keyframes blok-7 {
+    14.15% {
+        opacity: 100%;
+        margin-top: 33vw;
+    }
+
+    93% {
+        opacity: 100%;
+        margin-top: 33vw;
+    }
+
+    97% {
+        opacity: 0%;
+        margin-top: 33vw;
+    }
+
+    100% {
+        opacity: 0%;
+        margin-top: -8vw;
+    }
+}
+
+@keyframes blok-12 {
+    14.63% {
+        opacity: 100%;
+        margin-top: 30.3vw;
+    }
+
+    93% {
+        opacity: 100%;
+        margin-top: 30.3vw;
+    }
+
+    97% {
+        opacity: 0%;
+        margin-top: 30.3vw;
+    }
+
+    100% {
+        opacity: 0%;
+        margin-top: -8vw;
+    }
+}
+
+@keyframes blok-8 {
+    15.15% {
+        opacity: 100%;
+        margin-top: 33.5vw;
+    }
+
+    93% {
+        opacity: 100%;
+        margin-top: 33.5vw;
+    }
+
+    97% {
+        opacity: 0%;
+        margin-top: 33.5vw;
+    }
+
+    100% {
+        opacity: 0%;
+        margin-top: -8vw;
+    }
+}
+
+@keyframes blok-3 {
+    15.7% {
+        opacity: 100%;
+        margin-top: 28vw;
+    }
+
+    93% {
+        opacity: 100%;
+        margin-top: 28vw;
+    }
+
+    97% {
+        opacity: 0%;
+        margin-top: 28vw;
+    }
+
+    100% {
+        opacity: 0%;
+        margin-top: -8vw;
+    }
+}
+
+@keyframes blok-13 {
+    16.3% {
+        opacity: 100%;
+        margin-top: 28vw;
+    }
+
+    93% {
+        opacity: 100%;
+        margin-top: 28vw;
+    }
+
+    97% {
+        opacity: 0%;
+        margin-top: 28vw;
+    }
+
+    100% {
+        opacity: 0%;
+        margin-top: -8vw;
+    }
+}
+
+@keyframes blok-4 {
+    17.24% {
+        opacity: 100%;
+        margin-top: 23vw;
+    }
+
+    93% {
+        opacity: 100%;
+        margin-top: 23vw;
+    }
+
+    97% {
+        opacity: 0%;
+        margin-top: 23vw;
+    }
+
+    100% {
+        opacity: 0%;
+        margin-top: -8vw;
+    }
+}
+
+@keyframes blok-9 {
+    17.64% {
+        opacity: 100%;
+        margin-top: 23vw;
+    }
+
+    93% {
+        opacity: 100%;
+        margin-top: 23vw;
+    }
+
+    97% {
+        opacity: 0%;
+        margin-top: 23vw;
+    }
+
+    100% {
+        opacity: 0%;
+        margin-top: -8vw;
+    }
+}
+
+@keyframes blok-14 {
+    18.4% {
+        opacity: 100%;
+        margin-top: 21vw;
+    }
+
+    93% {
+        opacity: 100%;
+        margin-top: 21vw;
+    }
+
+    97% {
+        opacity: 0%;
+        margin-top: 21vw;
+    }
+
+    100% {
+        opacity: 0%;
+        margin-top: -8vw;
+    }
+}
+
+@keyframes blok-10 {
+    19.23% {
+        opacity: 100%;
+        margin-top: 21vw;
+    }
+
+    90% {
+        opacity: 100%;
+        margin-top: 21vw;
+    }
+
+    93% {
+        opacity: 0%;
+        margin-top: 21vw;
+    }
+
+    95% {
+        opacity: 0%;
+        margin-top: -8vw;
+    }
+}
+
+@keyframes blok-5 {
+    20.4% {
+        opacity: 100%;
+        margin-top: 16.1vw;
+    }
+
+    90% {
+        opacity: 100%;
+        margin-top: 16.1vw;
+    }
+
+    93% {
+        opacity: 0%;
+        margin-top: 16.1vw;
+    }
+
+    95% {
+        opacity: 0%;
+        margin-top: -8vw;
+    }
+}
+
+@keyframes lenta {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes adrenaline-1 {
+    0% {
+        margin-top: -0vw;
+        transform: scale(1, 1);
+    }
+    12% {
+        margin-top: -2.2vw;
+        transform: scale(1, 0.6);
+    }
+    24% {
+        margin-top: -1.2vw;
+        transform: scale(1, 0.8);
+    }
+    36% {
+        margin-top: 0vw;
+        transform: scale(1, 1);
+    }
+    50% {
+        margin-top: 2.8vw;
+        transform: scale(1, 1.6);
+    }
+    62% {
+        margin-top: 6.2vw;
+        transform: scale(1, 2.2);
+    }
+    74% {
+        margin-top: 5vw;
+        transform: scale(1, 2);
+    }
+    82% {
+        margin-top: 3.4vw;
+        transform: scale(1, 1.7);
+    }
+    92% {
+        margin-top: 1vw;
+        transform: scale(1, 1.2);
+    }
+}
+
+@keyframes adrenaline-2 {
+    0% {
+        margin-top: -0.52vw;
+        transform: scale(1, 1.5);
+    }
+    12% {
+        margin-top: -2vw;
+        transform: scale(1, 1.7);
+    }
+    24% {
+        margin-top: 0.8vw;
+        transform: scale(1, 2);
+    }
+    36% {
+        margin-top: 3vw;
+        transform: scale(1, 2.2);
+    }
+    50% {
+        margin-top: 5.25vw;
+        transform: scale(1, 1.9);
+    }
+    62% {
+        margin-top: 7.35vw;
+        transform: scale(1, 1.6);
+    }
+    74% {
+        margin-top: 7.7vw;
+        transform: scale(1, 1.9);
+    }
+    82% {
+        margin-top: 3.8vw;
+        transform: scale(1, 1.5);
+    }
+    92% {
+        margin-top: 0.1vw;
+        transform: scale(1, 1.4);
+    }
+}
+
+@keyframes adrenaline-3 {
+    0% {
+        margin-top: 5vw;
+        transform: scale(1, 2);
+    }
+    12% {
+        margin-top: 7.35vw;
+        transform: scale(1, 2.2);
+    }
+    24% {
+        margin-top: 6.65vw;
+        transform: scale(1, 1.7);
+    }
+    36% {
+        margin-top: 5.8vw;
+        transform: scale(1, 1.3);
+    }
+    50% {
+        margin-top: 2.38vw;
+        transform: scale(1, 1);
+    }
+    62% {
+        margin-top: -1.8vw;
+        transform: scale(1, 0.8);
+    }
+    74% {
+        margin-top: 0.5vw;
+        transform: scale(1, 0.6);
+    }
+    82% {
+        margin-top: 1.5vw;
+        transform: scale(1, 1.3);
+    }
+    92% {
+        margin-top: 4vw;
+        transform: scale(1, 1.9);
+    }
+}
+
+@keyframes boo-1 {
+    0% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+    12% {
+        transform: translate(3.59vw, 0vw) rotate(11deg);
+    }
+    24% {
+        transform: translate(7.45vw, 2.6vw) rotate(27deg);
+    }
+    36% {
+        transform: translate(14.36vw, 2.34vw) rotate(40deg);
+    }
+    48% {
+        transform: translate(36.56vw, 10.45vw) rotate(67deg);
+    }
+    60% {
+        transform: translate(48.22vw, 8.24vw) rotate(88deg);
+    }
+    72% {
+        transform: translate(0vw, 0vw) rotate(0deg);
+    }
+    84% {
+        transform: translate(3.59vw, 0vw) rotate(11deg);
+    }
+    96% {
+        transform: translate(3.59vw, 0vw) rotate(11deg);
+    }
+}
+
+@keyframes text {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-260%);
+    }
+}
+
+@keyframes rainy {
+    100% {
+        background-position: -152.6vw;
+    }
+}
+
+
+@keyframes zvetofor {
+    0% {
+        background-color: #FFFFFF;
+    }
+    25% {
+        background-color: #C3FB4F;
+    }
+    50% {
+        background-color: #FFFFFF;
+    }
+    75% {
+        background-color: #FFFFFF;
+    }
+}
+
+@keyframes zvetofor-1 {
+    0% {
+        background-color: #FFFFFF;
+    }
+
+    25% {
+        background-color: #FFFFFF;
+    }
+
+    50% {
+        background-color: #C3FB4F;
+    }
+
+    75% {
+        background-color: #FFFFFF;
+    }
+}
+
+@keyframes zvetofor-2 {
+    0% {
+        background-color: #FFFFFF;
+    }
+
+    25% {
+        background-color: #FFFFFF;
+    }
+
+    50% {
+        background-color: #FFFFFF;
+    }
+
+    75% {
+        background-color: #C3FB4F;
+    }
+}
+
+@keyframes polet-1 {
+    0% {
+        margin-top: -0vw;
+        transform: scale(1, 1);
+    }
+
+    12% {
+        margin-top: -2.2vw;
+        transform: scale(1, 0.6);
+    }
+
+    24% {
+        margin-top: -1.2vw;
+        transform: scale(1, 0.8);
+    }
+
+    36% {
+        margin-top: 0vw;
+        transform: scale(1, 1);
+    }
+
+    50% {
+        margin-top: 2.8vw;
+        transform: scale(1, 1.6);
+    }
+
+    62% {
+        margin-top: 6.2vw;
+        transform: scale(1, 2.2);
+    }
+
+    74% {
+        margin-top: 5vw;
+        transform: scale(1, 2);
+    }
+
+    82% {
+        margin-top: 3.4vw;
+        transform: scale(1, 1.7);
+    }
+
+    92% {
+        margin-top: 1vw;
+        transform: scale(1, 1.2);
+    }
+}
+
+@keyframes polet-2 {
+    0% {
+        margin-top: -2.5vw;
+        transform: scale(1, 1.5);
+    }
+
+    12% {
+        margin-top: -3.2vw;
+        transform: scale(1, 1.7);
+    }
+
+    24% {
+        margin-top: -0.8vw;
+        transform: scale(1, 2);
+    }
+
+    36% {
+        margin-top: 1vw;
+        transform: scale(1, 2.2);
+    }
+
+    50% {
+        margin-top: 2.25vw;
+        transform: scale(1, 1.9);
+    }
+
+    62% {
+        margin-top: 3.5vw;
+        transform: scale(1, 1.6);
+    }
+
+    74% {
+        margin-top: 4.2vw;
+        transform: scale(1, 1.9);
+    }
+
+    82% {
+        margin-top: 0.8vw;
+        transform: scale(1, 1.5);
+    }
+
+    92% {
+        margin-top: -1.8vw;
+        transform: scale(1, 1.4);
+    }
+}
+
+@keyframes polet-3 {
+    0% {
+        margin-top: 5vw;
+        transform: scale(1, 2);
+    }
+
+    12% {
+        margin-top: 7.35vw;
+        transform: scale(1, 2.2);
+    }
+
+    24% {
+        margin-top: 6.65vw;
+        transform: scale(1, 1.7);
+    }
+
+    36% {
+        margin-top: 5.8vw;
+        transform: scale(1, 1.3);
+    }
+
+    50% {
+        margin-top: 2.38vw;
+        transform: scale(1, 1);
+    }
+
+    62% {
+        margin-top: -1.8vw;
+        transform: scale(1, 0.8);
+    }
+
+    74% {
+        margin-top: 0.5vw;
+        transform: scale(1, 0.6);
+    }
+
+    82% {
+        margin-top: 1.5vw;
+        transform: scale(1, 1.3);
+    }
+
+    92% {
+        margin-top: 4vw;
+        transform: scale(1, 1.9);
+    }
+}
+
+@keyframes finish {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-35%);
+    }
+}
+ /* @keyframes text {
+     0% {
+         right: -260%;
+     }
+
+     100% {
+         righ;
+     }
+ } */

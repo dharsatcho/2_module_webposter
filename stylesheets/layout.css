@@ -1,0 +1,671 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #055FD2;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1.35vw;
+    gap: 1.66vw;
+}
+.header {
+    display: flex;
+    gap: 1.66vw;
+    height: 50.31vw;
+    width: 97.18vw;
+}
+/* .header > div {
+    width: 49vw;
+    height: 30vw;
+} */
+.header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.66vw;
+}
+.header-top-left {
+    background-color: #312783;
+    border-radius: 0.93vw;
+    height: 34.6vw;
+    width: 42vw;
+    justify-content: center;
+    overflow: hidden;
+}
+.header-top-left img {
+    width: 69.27vw;
+    animation: cloud-text 4s linear infinite;
+}
+.header-down-left {
+    background-color: #FFFFFF;
+    border-radius: 0.93vw;
+    height: 14vw;
+    width: 42vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+}
+.glazaa {
+    background: url(../images/glaza-animback.svg) 0vw 0vw;
+    background-size: 351.56vw;
+    height: 12.03vw;
+    width: 35.25vw;
+    position: absolute;
+    animation: glaza 1.2s steps(10) infinite alternate;
+}
+/* .header-down-left img {
+    width: 31.25vw;
+    height: auto;
+} */
+/* .header-down-left img {
+    display: flex;
+    justify-content: center;
+} */
+.header-right {
+    background-color: #FFFFFF;
+    border-radius: 0.93vw;
+    /* height: 50.46vw; */
+    width: 53.48vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-right img {
+    position: absolute;
+}
+.header-right img:nth-of-type(1) {
+    width: 37.7vw;
+}
+.header-right img:nth-of-type(2) {
+    width: 26.56vw;
+    animation: lotsclouds-1 12s ease-in infinite;
+}
+.header-right img:nth-of-type(3) {
+    width: 26.56vw;
+    animation: lotsclouds-2 12s ease-in infinite;
+}
+.header-right img:nth-of-type(4) {
+    width: 26.56vw;
+    animation: lotsclouds-3 12s ease-in infinite;
+}
+.header-right img:nth-of-type(5) {
+    width: 26.56vw;
+    animation: lotsclouds-4 12s ease-in infinite;
+}
+.header-right img:nth-of-type(6) {
+    width: 26.56vw;
+    animation: lotsclouds-5 12s ease-in infinite;
+}
+.header-right img:nth-of-type(7) {
+    width: 37.92vw;
+    animation: lotsclouds-6 12s ease-in infinite;
+}
+.header-right img:nth-of-type(8) {
+    width: 37.92vw;
+    animation: lotsclouds-7 12s linear infinite;
+}
+
+/* блок легкость */
+.lightness {
+    border-radius: 0.93vw;
+    background-color: #312783;
+    height: 18.23vw;
+    width: 97.28vw;
+}
+.lightness-line {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* animation: letters 3s ease-in-out infinite; */
+}
+.lightness-text1 {
+    font-family: "Proxima-Nova";
+    font-weight: 900;
+    font-size: 18.3vw;
+    /* stroke: #C3FB4F; */
+    /* width: 97vw;
+    height: 18.6vw; */
+    color: #C3FB4F;
+    animation: letters 3s ease-in-out infinite;
+    animation-delay: 0s;
+}
+.lightness-text2 {
+    font-family: "Proxima-Nova";
+    font-weight: 900;
+    font-size: 18.3vw;
+    /* width: 97vw;
+    height: 18.6vw; */
+    color: #C3FB4F;
+    animation: letters 3s ease-in-out infinite;
+    animation-delay: 0.7s;
+}
+.lightness-text3 {
+    font-family: "Proxima-Nova";
+    font-weight: 900;
+    font-size: 18.3vw;
+    /* width: 97vw;
+    height: 18.6vw; */
+    color: #C3FB4F;
+    animation: letters 3s ease-in-out infinite;
+    animation-delay: 1.5s;
+}
+.lightness-text4 {
+    font-family: "Proxima-Nova";
+    font-weight: 900;
+    font-size: 18.3vw;
+    /* width: 97vw;
+    height: 18.6vw; */
+    color: #C3FB4F;
+    animation: letters 3s ease-in-out infinite;
+    animation-delay: 2.3s;
+}
+.lightness-text5 {
+    font-family: "Proxima-Nova";
+    font-weight: 900;
+    font-size: 18.3vw;
+    /* width: 97vw;
+    height: 18.6vw; */
+    color: #C3FB4F;
+    animation: letters 3s ease-in-out infinite;
+    animation-delay: 3s;
+}
+.lightness-text6 {
+    font-family: "Proxima-Nova";
+    font-weight: 900;
+    font-size: 18.3vw;
+    /* width: 97vw;
+    height: 18.6vw; */
+    color: #C3FB4F;
+    animation: letters 3s ease-in-out infinite;
+    animation-delay: 3.7s;
+}
+.lightness-text7 {
+    font-family: "Proxima-Nova";
+    font-weight: 900;
+    font-size: 18.3vw;
+    /* width: 97vw;
+    height: 18.6vw; */
+    color: #C3FB4F;
+    animation: letters 3s ease-in-out infinite;
+    animation-delay: 4.4s;
+}
+.lightness-text8 {
+    font-family: "Proxima-Nova";
+    font-weight: 900;
+    font-size: 18.3vw;
+    /* width: 97vw;
+    height: 18.6vw; */
+    color: #C3FB4F;
+    animation: letters 3s ease-in-out infinite;
+    animation-delay: 5.2s;
+}
+/* блок бтг облако */
+.big-cloud {
+    display: flex;
+    gap: 1.66vw;
+    justify-content: center;
+    height: 45.93vw;
+    width: 97.28vw;
+}
+.big-cloud > div {
+border-radius: 0.93vw;
+}
+.big-cloud-left {
+    background-color: #312783;
+    height: 45.93vw;
+    width: 63.23vw;
+    overflow: hidden;
+    
+}
+.big-cloud-left h3 {
+    margin-top: 5.31vw;
+    font-family: "Proxima-Nova";
+    font-weight: 700;
+    font-size: 5.625vw;
+    color: #C3FB4F;
+    text-align: center;
+    animation: phrase 2s ease-in-out infinite;
+}
+.big-cloud-left p {
+    font-family: "Proxima-Nova";
+    font-weight: 700;
+    line-height: 78%;
+    font-size: 2.81vw;
+    color: #C3FB4F;
+    animation: phrase 2s ease-in-out infinite;
+}
+.big-cloud-left p:nth-of-type(1) {
+    position: absolute;
+    margin-top: -15vw;
+    margin-left: 50vw;
+}
+.big-cloud-left p:nth-of-type(2) {
+    /* position: absolute; */
+    margin-top: -3vw;
+    margin-left: 1.35vw;
+}
+.big-cloud-left img:nth-of-type(1){
+    width: 42.92vw;
+    height: auto;
+    justify-items: center;
+    position: relative;
+    margin-left: 9.32vw;
+}
+.big-cloud-left img:nth-of-type(2){
+    position: absolute;
+    width: 15.88vw;
+    margin-top: 24.8vw;
+    margin-left: -41vw;
+    animation: phrases 2s ease-in-out infinite;
+}
+.big-cloud-left img:nth-of-type(3){
+    position: absolute;
+    width: 10.88vw;
+    margin-top: 14.4vw;
+    margin-left: -13vw;
+    animation: phrases 2s ease-in-out infinite;
+}
+
+/* сыпятся облака */
+.big-cloud-right {
+    background-color: #FFFFFF;
+    height: 45.93vw;
+    width: 32.5vw;
+    overflow: hidden;
+    position: relative;
+}
+.big-cloud-right img {
+    /* margin-top: -5vw; */
+    width: 7.81vw;
+    position: absolute;
+}
+
+.blo-1 {
+    margin-top: -5vw;
+    rotate: 33deg;
+    margin-left: 1vw;
+    animation: blok-1 24s ease infinite;
+}
+.blo-2 {
+    margin-top: -7vw;
+    rotate: 0deg;
+    margin-left: 19vw;
+    animation: blok-2 22.6s ease infinite;
+    animation-delay: 1.4s;
+}
+.blo-3 {
+    margin-top: -7vw;
+    animation: blok-3 19.1s ease infinite;
+    rotate: 180deg;
+    margin-left: 11vw;
+    animation-delay: 4.9s;
+}
+.blo-4 {
+    margin-top: -7vw;
+    animation: blok-4 17.6s ease infinite;
+    rotate: 20deg;
+    margin-left: 0.7vw;
+    animation-delay: 6.4s;
+}
+.blo-5 {
+    margin-top: -7vw;
+    animation: blok-5 14.7s ease infinite;
+    rotate: 150deg;
+    margin-left: 16vw;
+    animation-delay: 9.3s;
+}
+.blo-6 {
+    margin-top: -7vw;
+    margin-top: -12vw;
+    animation: blok-6 21.9s ease infinite;
+    rotate: -130deg;
+    margin-left: 23.6vw;
+    animation-delay: 2.1s;
+}
+.blo-7 {
+    margin-top: -7vw;
+    animation: blok-7 21.2s ease infinite;
+    rotate: -130deg;
+    margin-left: 6.5vw;
+    animation-delay: 2.8s;
+}
+.blo-8 {
+    margin-top: -7vw;
+    animation: blok-8 19.8s ease infinite;
+    rotate: 170deg;
+    margin-left: 14.7vw;
+    animation-delay: 4.2s;
+}
+.blo-9 {
+    margin-top: -7vw;
+    animation: blok-9 17s ease infinite;
+    rotate: -130deg;
+    margin-left: 14.7vw;
+    animation-delay: 7s;
+}
+.blo-10 {
+    margin-top: -7vw;
+    animation: blok-10 15.6s ease infinite;
+    rotate: 90deg;
+    margin-left: 23vw;
+    animation-delay: 8.4s;
+}
+.blo-11 {
+    margin-top: -7vw;
+    rotate: 180deg;
+    margin-left: 9.67vw;
+    animation: blok-11 23.3s ease infinite;
+    animation-delay: 0.7s;
+}
+.blo-12 {
+    margin-top: -7vw;
+    rotate: -90deg;
+    margin-left: -0.5vw;
+    animation: blok-12 20.5s ease infinite;
+    animation-delay: 3.5s;
+}
+.blo-13 {
+    margin-top: -7vw;
+    rotate: 20deg;
+    margin-left: 23vw;
+    animation: blok-13 18.4s ease infinite;
+    animation-delay: 5.6s;
+}
+.blo-14 {
+    margin-top: -7vw;
+    rotate: 60deg;
+    margin-left: 6.9vw;
+    animation: blok-14 16.3s ease infinite;
+    animation-delay: 7.7s;
+}
+/* ленточка */
+.lenta {
+    margin-left: -1.35vw;
+    /* height: 14.68vw;
+    width: 97.28vw; */
+    /* overflow: hidden; */
+    animation: lenta linear 3.5s infinite;
+}
+.lenta img{
+    width: 200vw;
+}
+/* адреналин */
+.adrenaline {
+    margin: -1.35vw;
+    height: 52.2vw;
+    width: 100vw;
+    /* display: flex; */
+}
+.adrenaline P {
+    color: #C3FB4F;
+    font-family: "Proxima-Nova";
+    font-weight: 900;
+    font-size: 14.27vw;
+}
+.adrenaline P:nth-of-type(1) {
+    font-weight: 700;
+    transform: scale(1, 1);
+    animation: adrenaline-1 10s ease-in-out infinite;
+}
+.adrenaline P:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    margin-top: -0.5vw;
+    transform: scale(1, 1.5);
+    animation: adrenaline-2 10s ease-in-out infinite;
+}
+.adrenaline P:nth-of-type(3) {
+    display: flex;
+    justify-content: right;
+    margin-top: 5vw;
+    transform: scale(1, 2);
+    animation: adrenaline-3 10s ease-in-out infinite;
+}
+/* книги */
+.books {
+    background-color: #312783;
+    border-radius: 0.93vw;
+    height: 46.86vw;
+    width: 97.28vw;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+}
+.books div {
+    border-radius: 0.93vw;
+    width: 7.08vw;
+    height: 40.52vw;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.books p {
+    transform: rotate(-90deg);
+    color: #312783;
+    font-family: "Proxima-Nova";
+    font-weight: 700;
+    font-size: 4.95vw;
+    text-align: center;
+}
+.book-1 {
+    background-color: #C3FB4F;
+    animation: boo-1 12s linear infinite;
+}
+.book-2 {
+    background-color: #FFFFFF;
+    animation: boo-2 12s linear infinite;
+}
+.book-3 {
+    background-color: #C3FB4F;
+    animation: boo-3 12s linear infinite;
+}
+.book-4 {
+    background-color: #FFFFFF;
+    animation: boo-4 12s linear infinite;
+}
+.book-5 {
+    background-color: #C3FB4F;
+    animation: boo-5 12s linear infinite;
+}
+
+/* бегущий текст */
+.text {
+    border-radius: 0.93vw;
+    background-color: #312783;
+    height: 14.43vw;
+    width: 97.28vw;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.text p{
+    color: #C3FB4F;
+    font-family: "Proxima-Nova";
+    font-weight: 900;
+    font-size: 12.81vw;
+    text-align: center;
+    margin-top: 1vw;
+    animation: text 7s linear infinite;
+}
+.text p:hover {
+    animation-play-state: paused;
+}
+
+/* маленькое облако */
+.small-cloud {
+    display: flex;
+    gap: 1.66vw;
+    height: 30.94vw;
+    width: 97.18vw;
+}
+.small-cloud-left {
+    border-radius: 0.93vw;
+    background-color: #FFFFFF;
+    width: 46.3vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.small-cloud-left img {
+    width: 38vw;
+}
+.rain {
+    margin-top: 10vw;
+    background: url(../images/rain.svg) 0vw 0vw;
+    background-size: 152.6vw;
+    height: 25.31vw;
+    width: 31.35vw;
+    position: absolute;
+    animation: rainy 1s steps(4) infinite;
+}
+.small-cloud-right {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.93vw;
+    gap: 1.66vw;
+    /* height: 8.23vw;
+    width: 49.22vw; */
+}
+.small-cloud-right-top {
+    background-color: #FFFFFF;
+    border-radius: 0.93vw;
+    height: 8.23vw;
+    width: 49.22vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    gap: 1.7vw;
+}
+.small-cloud-right-top img {
+    width: 5.94vw;
+    height: auto;
+}
+.small-cloud-right-down {
+    background-color: #312783;
+    border-radius: 0.93vw;
+    height: 21.46vw;
+    width: 49.22vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.small-cloud-right-down img {
+    width: 47.29vw;
+}
+.small-cloud-right-down div {
+    position: absolute;
+    height: 10.73vw;
+    width: 10.73vw;
+    border-radius: 100%;
+    margin-top: 5.2vw;
+}
+.small-cloud-right-down div:nth-last-of-type(1) {
+    margin-right: 8.7vw;
+    background-color: #FFFFFF;
+    animation: zvetofor 5s ease-out infinite;
+}
+.small-cloud-right-down div:nth-last-of-type(2) {
+    background-color: #FFFFFF;
+    margin-right: 21vw;
+    animation: zvetofor-1 5s ease-out infinite;
+    /* animation-delay: 3s; */
+}
+.small-cloud-right-down div:nth-last-of-type(3) {
+    background-color: #FFFFFF;
+    margin-right: 33.4vw;
+    animation: zvetofor-2 5s ease-out infinite;
+    /* animation-delay: 6s; */
+}
+
+/* полет */
+.polet {
+    margin: -1.35vw;
+    height: 50vw;
+    width: 100vw;
+    /* display: flex; */
+}
+
+.polet P {
+    color: #C3FB4F;
+    font-family: "Proxima-Nova";
+    font-weight: 900;
+    font-size: 14.27vw;
+}
+
+.polet P:nth-of-type(1) {
+    font-weight: 700;
+    transform: scale(1, 1);
+    animation: polet-1 10s ease-in-out infinite;
+}
+
+.polet P:nth-of-type(2) {
+    display: flex;
+    margin-top: -2.5vw;
+    justify-content: center;
+    font-weight: 800;
+    transform: scale(1, 1.5);
+    animation: polet-2 10s ease-in-out infinite;
+}
+
+.polet P:nth-of-type(3) {
+    display: flex;
+    margin-top: 2.2vw;
+    justify-content: right;
+    transform: scale(1, 2);
+    animation: polet-3 10s ease-in-out infinite;
+}
+
+/* финиш */
+.finish {
+    border-radius: 0.93vw;
+    background-color: #312783;
+    height: 11.25vw;
+    width: 97.28vw;
+    overflow: hidden;
+}
+.finish img {
+    width: 200vw;
+    animation: finish 3s linear infinite;
+}
+
+/* подпись */
+.signature {
+    width: 97.28vw;
+}
+.signature p{
+    color: #C3FB4F;
+    font-family: "Proxima-Nova";
+    font-weight: 700;
+    font-size: 2.39vw;
+}
+.sign {
+    width: 97.6vw;
+    display: flex;
+    flex-direction: row;
+}
+.sign p:nth-of-type(2){
+    margin-left: 19vw;
+}
+.sign p:nth-of-type(3){
+    margin-left: 21vw;
+}
+.sign img:nth-of-type(1){
+    margin-left: -75.2vw;
+}
+.sign img:nth-of-type(2){
+    margin-left: 11.5vw;
+}
